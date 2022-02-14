@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+#calculator-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25vw;
+    height: 40vw;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
+    background-color: #cec9cc;
+    border-radius: 20px;
+    border: solid 2px rgb(71, 70, 70);
+}
+
+#screen {
+    background-color: #908a99;
+    height: 20%;
+    text-align: end;
+    vertical-align:text-bottom; 
+    border-radius: 3px;
+    border: solid 2px #767797;
+}
+
+#screen p {
+    padding: 10%;
+    font-family: "VT323", sans-serif;
+    font-size: 32px;
+}
+
+
+#button-container {
+    margin: 0;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6.66%;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.single-wide-button {
+    width: 20%;
+    font-size: 200%;
+}
+
+.double-wide-button {
+    width: 46.66%;
+    font-size: 200%;
+}
+
+.number-button {
+    background-color: #b5b6e4;
+    border: solid 2px #9495bb;
+}
+
+.number-button:active {
+    background-color: #9495bb;
+}
+
+.operator-button {
+    background-color: #4f43ae;
+    border: solid 2px #423891; 
+}
+
+.operator-button:active {
+    background-color: #423891;
+}
+
